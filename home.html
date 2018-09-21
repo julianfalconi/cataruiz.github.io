@@ -6,80 +6,193 @@
     <style>
       /* GLOBAL STYLES */
       html, body {
-        padding: 0;
         margin: 0;
+        padding: 0;
         font-family: Avenir;
-      }
+        background-color: white;
+        }
 
-      .header{
-        background-color: #b41a3e;
-        font-size: 1.5em;
-        color: white;
-        width: 100%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        width: 100%;
-        text-align: center;
-        letter-spacing: 1.5em;
+      .bio{
         display: inline-block;
+        position: static;
+        background-color: none;
+        width: 33vw;
+        height: 15%;
+        text-align: center;
+        border: 2px white solid;
+        letter-spacing: .6vw;
+        margin: 1vw;
+            }
+
+      .top{
+          width: auto;
+          height: auto;
+          background-color: maroon;
+       }
+
+       .name{
+         font-size: 32px;
+         font-weight: 500;
+         color: white;
+       }
+
+      .bior{
+        display: inline-block;
+        position: static;
+        background-color: none;
+        width: 61.5vw;
+        height: 15%;
+        list-style: none;
+        text-align: center;
+        font-size: 1.2vw;
+        line-height: 1.8em;
+        color: white;
+        padding-left: 1.5vw;
       }
 
-      h1{
-        font-weight: normal;
+      li{
+        float:left;
+        padding-left: 1.5vw;
+        padding-right: 1.5vw;
+        border-left: 2px white solid;
       }
 
-      h3{
-        font-weight: lighter;
+      li a{
+        text-decoration: none;
+        color: white;
       }
 
-      .menu {
+      li a:hover {
+        text-decoration: underline;
+      }
+
+      .menu{
+        list-style: none;
+      }
+
+
+
+    .short{
+      font-size: 20px;
+      color: black;
+    }
+
+    .bio2{
+      margin-top: 1vw;
+      position: static;
+      display: inline-block;
+      width: 100%;
+      font-size: 32px;
+      font-style: normal;
+      font-variant: normal;
+      line-height: 26px;
+      text-align: center;
+      background-color: white;
+    }
+
+
+      .title{
+        position: absolute;
+        color: black;
         width: 100%;
         text-align: center;
-      }
-      .menu li{
-       display: inline-block;
-       padding-left: 3%;
-       padding-right: 3%;
-       margin-top: 1%;
-       text-align: center;
-       font-size: 1em;
+        font-size: 32px;
+        margin-top: 3vw;
       }
 
-      #center{
-        border-right: 1px solid black;
-        border-left: 1px solid black;
+
+      .row {
+        margin-top: 7.5vw;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+        margin-left: 15%;
+        height: 40vw;
+        overflow-y: scroll;
       }
 
-      #left{
-        border-left: 1px solid black;
+
+      .photography {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
       }
 
-      #right{
-        border-right: 1px solid black;
+      .photography img {
+        margin-top: 5px;
+        vertical-align: middle;
+        max-width: 100%;
       }
 
-      .bio {
-        padding: 10% 5%;
-        text-align: center;
-      }
 
     </style>
   </head>
   <body>
 
-    <div class="header">
-      <h1>CATALINA</br>RUIZ</h1>
-      
+  <div class="top">
+      <div class= "bio">
+        <p class="name">CATALINA RUIZ</p>
+      </div>
 
-    <div class="bio">
-      Catalina Ruiz is a quirky, outgoing writer and talker who hopes to use her
-      passion for storytelling to give a voice to those who are silenced or
-       overlooked. </br> </br>
-        She hopes to change the world one story at a time. </br> </br>
-        By studying public relations at the University of Florida and minoring in
-        international development and humanitarian assistance, </br> </br>
-        she believes she has the skills to do it.
-    </div>
+      <div class= "bior">
+        <ul class= "menu">
+          <li><a href="#photography">PHOTOGRAPHY</a></li>
+          <li><a href="#videos">VIDEOS</a></li>
+          <li><a href="#writing">WRITING</a></li>
+          <li><a href="#social">SOCIAL MEDIA</a></li>
+          <li><a href="#resume">RESUME</a></li>
+        </ul>
+      </div>
+  </div>
 
+  <p class="title">PHOTOGRAPHY</p>
+  <div class="row">
+  <div class="photography">
+      <img src="images/dream.jpg">
+      <img src="images/wworking.jpg" >
+      <img src="images/iron.jpg" >
+      <img src="images/jl.jpg" >
+      <img src="images/jrun.jpg" >
+      <img src="images/nose.jpg" >
+      <img src="images/poppy.jpg" >
+      <img src="images/purple.jpg" >
+  </div>
+
+  <div class="photography">
+      <img src="images/bench.jpg" >
+      <img src="images/bull.jpg" >
+      <img src="images/msun.jpg" >
+      <img src="images/churro.jpg" >
+      <img src="images/jm.jpg" >
+      <img src="images/lw.jpg" >
+      <img src="images/pattern.jpg" >
+      <img src="images/redv.jpg" >
+      <img src="images/wclimb.jpg" >
+  </div>
+
+  <div class="photography">
+      <img src="images/mref.jpg" >
+      <img src="images/fl.jpg" >
+      <img src="images/green.jpg" >
+      <img src="images/frisbee.jpg" >
+      <img src="images/gd.jpg" >
+      <img src="images/maite" >
+      <img src="images/news.jpg" >
+      <img src="images/suyu.jpg" >
+      <img src="images/agoya.jpg" >
+      <img src="images/vic.JPG" >
+  </div>
+</div>
+
+
+<!--
+        <div class= "bio2">
+          <p class="short">  An outgoing writer and photographer who hopes to use her
+            passion for storytelling to give a voice to those who are silenced or
+             overlooked. </br> </br>
+              She hopes to change the world one story at a time. </br></br>
+            </p>
+        </div>
+-->
   </body>
 </html>
