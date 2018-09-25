@@ -31,6 +31,7 @@
           display: inline-block;
           position: fixed;
           margin-top: -20%;
+          z-index: 1;
        }
 
        .name{
@@ -121,6 +122,7 @@
 
       .title{
         display: inline-block;
+        position: relative;
         color: black;
         width: 95%;
         font-size: 32px;
@@ -129,6 +131,7 @@
         border-bottom: 2px maroon solid;
         letter-spacing: 1vw;
         padding-left: 5%;
+        z-index: 0;
       }
 
       .yvid{
@@ -238,6 +241,14 @@
         padding: .5vw;
         width: 36px;
       }
+
+      .anchor{
+        display: block;
+        height: 115px; /*same height as header*/
+        margin-top: -115px; /*same height as header*/
+        visibility: hidden;
+      }
+
     </style>
   </head>
   <body>
@@ -249,7 +260,7 @@
 
       <div class= "bior">
         <ul class= "menu">
-          <li><a href="#photography">PHOTOGRAPHY</a></li>
+          <li><a href="#photographyA">PHOTOGRAPHY</a></li>
           <li><a href="#videos">VIDEOS</a></li>
           <li><a href="#writinga">WRITING</a></li>
           <li><a href="#social">SOCIAL MEDIA</a></li>
@@ -290,15 +301,19 @@
       <img src="images/gd.jpg" >
       <img src="images/news.jpg" >
       <img src="images/suyu.png" >
-      <!--<img src="images/agoya.jpg" >-->
+      <img src="images/agoya.jpg" >
       <!--<img src="images/vic.JPG" >-->
   </div>
 </div>
 
-  <p class="title">PHOTOGRAPHY...</p>
+  <span class="anchor" id="photographyA"></span>
+
+  <p class="title"> PHOTOGRAPHY...</p>
   <p class="under">is under construction. I hope you enjoy the photos above for now!</p>
 
-  <p class="title">VIDEOS...</p>
+  <span class="anchor" id="videos"></span>
+
+  <p class="title"> VIDEOS</p>
   <div class="yvid">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/eCji7MP8940"
   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -306,7 +321,9 @@
   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
-  <p class="title"><a name="writinga">WRITING</a></p>
+  <span class="anchor" id="writinga"></span>
+
+  <p class="title">WRITING</p>
 
   <div class="writing">
 
@@ -365,7 +382,9 @@
 
   </div>
 
-  <p class="title"><a name="social">SOCIAL MEDIA AND PROMOTIONAL DESIGN</p>
+    <span class="anchor" id="social"></span>
+
+  <p class="title">SOCIAL MEDIA AND PROMOTIONAL DESIGN</p>
   <h3 id="smblurb">Facebook posts I created as public relations chair for my coed honor
     fraternity and as an intern for REDI. </h3>
   <div class="socialc">
@@ -393,7 +412,9 @@
     </div>
   </div>
 
-  <p class="title"><a name="resume">RESUME</a></p>
+    <span class="anchor" id="resume"></span>
+
+  <p class="title">RESUME</p>
   <div class="box">
     <p class="tres"> English </p>
       <p class="tres">Spanish</p>
