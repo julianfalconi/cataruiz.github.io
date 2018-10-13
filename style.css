@@ -6,12 +6,11 @@ body {
 
 .gallery {
   width: 100%;
-  margin: 0;
   overflow: hidden;
 }
 
 .img-c {
-  width: 20vw;
+  width: 300px;
   float: left;
   position: relative;
   overflow: hidden;
