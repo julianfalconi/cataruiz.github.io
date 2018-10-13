@@ -1,11 +1,12 @@
 body {
   padding: 0;
   position: relative;
+  margin: 0;
 }
 
 .gallery {
   width: 100%;
-  margin: auto;
+  margin: 0;
   overflow: hidden;
 }
 
