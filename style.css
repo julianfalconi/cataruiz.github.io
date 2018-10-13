@@ -2,6 +2,7 @@ body {
   padding: 0;
   position: relative;
   margin: 0;
+  background-color: maroon;
 }
 
 .gallery {
@@ -42,7 +43,7 @@ body {
 
 .img-c.active {
   width: 100vw !important;
-  height: 100vh !important;
+  height: 90vw !important;
   position: absolute;
   z-index: 2;
 }
