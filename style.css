@@ -5,14 +5,13 @@ body {
 }
 
 .gallery {
-  width: 25%;
+  width: 100%;
   margin: 0;
   overflow: hidden;
 }
 
 .img-c {
-  width: 200px;
-  height: 200px;
+  width: 25%;
   float: left;
   position: relative;
   overflow: hidden;
