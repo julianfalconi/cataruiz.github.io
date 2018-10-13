@@ -12,7 +12,8 @@ body {
 }
 
 .img-c {
-  width: 25vw;
+  width: 250px;
+  height: 250px;
   float: left;
   position: relative;
   overflow: hidden;
