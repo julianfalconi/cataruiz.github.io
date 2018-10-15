@@ -42,11 +42,12 @@ body {
 }
 
 .img-c.active {
-  width: 50vw !important;
-  height: 50vw !important;
+  width: 60vw !important;
+  height: 60vw !important;
   position: absolute;
   margin-left: 25vw;
   z-index: 2;
+  transform: scale(.9);
 }
 
 .img-c.postactive {
