@@ -54,9 +54,3 @@ body {
   z-index: 2;
   pointer-events: none;
 }
-
-.img-c.active.positioned {
-  left: 0 !important;
-  top: 0 !important;
-  transition-delay: 50ms;
-}
