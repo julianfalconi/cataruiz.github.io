@@ -55,6 +55,6 @@ body {
   pointer-events: none;
 }
 .img-c.active.positioned {
-  left: 0 !important;
+  left: 25vw !important;
   transition-delay: 50ms;
 }
