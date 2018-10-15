@@ -46,7 +46,6 @@ body {
   height: 70vw !important;
   position: absolute;
   z-index: 2;
-  transform: scale(.9);
 }
 
 .img-c.postactive {
