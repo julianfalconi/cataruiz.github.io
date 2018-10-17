@@ -6,7 +6,7 @@ body {
 }
 
 .gallery {
-  width: 100vw;
+  width: 75vw;
   overflow: hidden;
 }
 
@@ -42,8 +42,8 @@ body {
 }
 
 .img-c.active {
-  width: 70vw !important;
-  height: 70vw !important;
+  width: 100% !important;
+  height: 100% !important;
   position: absolute;
   z-index: 2;
 }
