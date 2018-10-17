@@ -42,7 +42,7 @@ body {
 }
 
 .img-c.active {
-  width: 80vw !important;
+  width: 90vw !important;
   height: 80vw !important;
   position: absolute;
   z-index: 2;
