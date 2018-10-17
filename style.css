@@ -57,6 +57,6 @@ body {
 .img-c.active.positioned {
   left: 0 !important;
   top: 0 !important;
-  transform: scale(.80);
+  transform: scale(.5);
   transition-delay: 50ms;
 }
