@@ -8,6 +8,7 @@ body {
 .gallery {
   width: 75vw;
   overflow: hidden;
+  text-align: center;
 }
 
 .img-c {
